@@ -15,7 +15,6 @@ body {
   font-size: 26px;
   line-height: 1.2;
   /* identical to box height */
-  padding: 24px 1240px 25px 215px;
 }
 .color-one {
   color: #2196f3;
@@ -122,20 +121,28 @@ ul {
 
 .container {
   width: 1200px;
-
   padding-right: 215px;
   padding-left: 215px;
 }
 .section-header {
+  width: 1600px;
+  height: 80px;
+  justify-content: space-evenly;
+  border: 1px solid #ececec;
+  background: #ffffff;
   display: flex;
-  justify-content: center;
-  gap: 46px;
+  margin: auto;
 }
 .section-one {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
+  justify-content: space-around;
   gap: 30px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin: auto;
 }
 
 .section-two {
@@ -145,4 +152,9 @@ ul {
   height: 38px;
   border-radius: 4px;
   flex-basis: auto;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
 }
