@@ -15,6 +15,7 @@ body {
   font-size: 26px;
   line-height: 1.2;
   /* identical to box height */
+  padding: 24px 1240px 25px 215px;
 }
 .color-one {
   color: #2196f3;
@@ -25,6 +26,7 @@ body {
 
 .social-links {
   color: #212121;
+  display: flex;
 }
 
 .social-links .link:focus {
@@ -68,6 +70,7 @@ body {
 
   color: var(--main-color, black);
 }
+
 .navbar .contact {
   font-weight: 500;
   font-size: 14px;
@@ -115,4 +118,31 @@ ul {
   text-decoration-line: underline;
 
   color: rgba(255, 255, 255, 0.6);
+}
+
+.container {
+  width: 1200px;
+
+  padding-right: 215px;
+  padding-left: 215px;
+}
+.section-header {
+  display: flex;
+  justify-content: center;
+  gap: 46px;
+}
+.section-one {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.section-two {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  height: 38px;
+  border-radius: 4px;
+  flex-basis: auto;
 }
