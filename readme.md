@@ -1,1 +1,1 @@
-https://github.com/Lukaszz2003/goit-markup-hw-03.git
+https://lukaszz2003.github.io/goit-markup-hw-03/
