@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 :root {
   --main-color: #212121;
   --secondary-color: #757575;
@@ -26,6 +29,7 @@ body {
 .social-links {
   color: #212121;
   display: flex;
+  gap: 46px;
 }
 
 .social-links .link:focus {
@@ -38,6 +42,7 @@ body {
 
 .contact-links {
   color: #757575;
+  gap: 50px;
 }
 .contact-links .links:focus {
   color: #2196f3;
@@ -52,13 +57,13 @@ body {
   height: 50px;
   left: 700px;
   top: 430px;
-  background: #2196f3;
+  color: #000000;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   line-height: 30px;
   /* identical to box height, or 188% */
-
-  color: #ffffff;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .button:hover {
@@ -130,9 +135,9 @@ ul {
 }
 
 .container {
-  width: 1200px;
-  padding-right: 215px;
-  padding-left: 215px;
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 0px 15px;
 }
 .section-header {
   width: 1600px;
@@ -188,18 +193,38 @@ ul {
 
 .lorem-ipsum {
   display: flex;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  padding-top: 800px;
 }
 
-.color-new {
+.hero {
+  background: #2f303a;
+  width: 1600px;
+  height: 600px;
+  display: flex;
   color: #ffffff;
-  padding: 200px 425px 0px 425px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-size: 34px;
+  line-height: 60px;
+  position: absolute;
+  margin-left: 100px;
+  padding: 200px 425px 280px 425px;
 }
 
 .section-four {
+  font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
+  color: #212121;
+  top: 969px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -210,4 +235,33 @@ ul {
   list-style-type: none;
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.do-do {
+  display: flex;
+  list-style-type: none;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  flex-wrap: wrap;
+}
+.lorem-ipsum-list {
+  display: flex;
+}
+.lorem-impsum-item {
+  display: flex;
+  flex-basis: calc(100% - 20px) / 3;
+  padding: 10px;
+}
+
+.lorem-ipsum-title {
+  display: flex;
+  margin-top: 0;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.lorem-ipsum-p {
+  margin: 0;
+}
+.do-do-list {
+  flex-direction: row;
 }
