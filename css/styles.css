@@ -191,14 +191,61 @@ ul {
 }
 
 .lorem-ipsum {
-  display: flex;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-
   padding-top: 800px;
 }
 
+.lorem-ipsum-one {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+}
+.lorem-ipsum-two {
+  display: flex;
+}
+.do-do {
+  display: flex;
+  list-style-type: none;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  align-items: center;
+}
+.do-do-item {
+  display: flex;
+}
+
+.do-do-list {
+  display: flex;
+  gap: 30px;
+  margin-left: 215px;
+}
+.do-do-h2 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.team-one {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  background: #f5f4fa;
+  width: 1600px;
+  height: 648px;
+  align-items: center;
+}
+.team-two {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
 .hero {
   background: #2f303a;
 
@@ -235,34 +282,4 @@ ul {
   list-style-type: none;
   padding-top: 94px;
   padding-bottom: 94px;
-}
-.do-do {
-  display: flex;
-  list-style-type: none;
-  padding-top: 94px;
-  padding-bottom: 94px;
-  flex-wrap: wrap;
-}
-.lorem-ipsum-list {
-  display: flex;
-  align-self: center;
-}
-.lorem-impsum-item {
-  display: flex;
-
-  padding: 10px;
-}
-
-.lorem-ipsum-title {
-  display: flex;
-  margin-top: 0;
-  justify-content: center;
-  align-items: flex-start;
-}
-
-.lorem-ipsum-p {
-  margin: 0;
-}
-.do-do-list {
-  flex-direction: row;
 }
