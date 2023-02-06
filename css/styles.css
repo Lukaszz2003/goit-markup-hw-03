@@ -17,6 +17,7 @@ body {
   text-decoration: none;
   font-size: 26px;
   line-height: 1.2;
+  align-self: center;
   /* identical to box height */
 }
 .color-one {
@@ -30,6 +31,7 @@ body {
   color: #212121;
   display: flex;
   gap: 46px;
+  align-self: center;
 }
 
 .social-links .link:focus {
@@ -140,7 +142,6 @@ ul {
   padding: 0px 15px;
 }
 .section-header {
-  width: 1600px;
   height: 80px;
   justify-content: space-evenly;
   border: 1px solid #ececec;
@@ -171,14 +172,12 @@ ul {
 }
 
 .section-footer {
-  width: 1600px;
   height: 252px;
   top: 1628px;
   flex-direction: column;
   margin: 60px 1240px 60px 215px;
 }
 .section-three {
-  width: 1600px;
   height: 600px;
   left: 0px;
   top: 80px;
@@ -202,7 +201,7 @@ ul {
 
 .hero {
   background: #2f303a;
-  width: 1600px;
+
   height: 600px;
   display: flex;
   color: #ffffff;
@@ -214,6 +213,7 @@ ul {
   line-height: 60px;
   position: absolute;
   margin-left: 100px;
+  margin-right: 100px;
   padding: 200px 425px 280px 425px;
 }
 
@@ -245,10 +245,11 @@ ul {
 }
 .lorem-ipsum-list {
   display: flex;
+  align-self: center;
 }
 .lorem-impsum-item {
   display: flex;
-  flex-basis: calc(100% - 20px) / 3;
+
   padding: 10px;
 }
 
